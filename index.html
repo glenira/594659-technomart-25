@@ -61,6 +61,37 @@
 	        		<a href="#" class="company-contacts-button">Заблудились? Напишите нам!</a>
 				</div>
 			</section>
+			<!-- Модальные формы  -->
+			<section class="modal modal-communication">
+				<h2 class="visually-hidden">Форма обратной связи</h2>
+				<button type="button" name="close-button" class="modal-close">Закрыть форму обратной связи</button>
+				<form class="communication-form" action="https://echo.htmlacademy.ru" method="post">
+					<div class="modal-communication-top">
+						<p class="communication-item">
+							<label for="communication-name">Ваше имя</label>
+							<input id="communication-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+						</p>
+						<p class="communication-item">
+							<label for="communication-mail">Ваш e-mail</label>
+							<input id="communication-mail" type="email " name="e-mail" value="" placeholder="email@example.com">
+						</p>
+						<p class="communication-item">
+							<label for="communication-text">Текст письма:</label>
+							<textarea id="communication-text" name="text" placeholder="В свободной форме"></textarea>
+						</p>
+					</div>
+					<div class="modal-communication-bottom">
+          				<button class="button" type="submit">Отправить</button>
+          			</div>
+        		</form>
+			</section>
+			<section class="modal modal-map">
+				<h2 class="visually-hidden">Карта большего размера</h2>
+				<button type="button" name="close-button" class="modal-close">Закрыть карту</button>
+				<p>
+					<img src="img/map-big.jpg" width="940" height="446.2" alt="Офис компании Техномарт по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+				</p>
+			</section>
 		</main>
 		<footer class="main-footer">
 			<div class="footer-top">
@@ -107,36 +138,5 @@
 				</p>
 			</div>
 		</footer>
-<!-- Модальные формы  -->
-			<section class="modal modal-communication">
-				<h2 class="visually-hidden">Форма обратной связи</h2>
-				<button type="button" name="close-button" class="modal-close">Закрыть форму обратной связи</button>
-				<form class="communication-form" action="https://echo.htmlacademy.ru" method="post">
-					<div class="modal-communication-top">
-						<p class="communication-item">
-							<label for="communication-name">Ваше имя</label>
-							<input id="communication-name" type="text" name="name" value="" placeholder="Имя Фамилия">
-						</p>
-						<p class="communication-item">
-							<label for="communication-mail">Ваш e-mail</label>
-							<input id="communication-mail" type="email " name="e-mail" value="" placeholder="email@example.com">
-						</p>
-						<p class="communication-item">
-							<label for="communication-text">Текст письма:</label>
-							<textarea id="communication-text" name="text" placeholder="В свободной форме"></textarea>
-						</p>
-					</div>
-					<div class="modal-communication-bottom">
-          				<button class="button" type="submit">Отправить</button>
-          			</div>
-        		</form>
-			</section>
-			<section class="modal modal-map">
-				<h2 class="visually-hidden">Карта в большем размере</h2>
-				<button type="button" name="close-button" class="modal-close">Закрыть карту в большом размере</button>
-				<p>
-					<img src="img/map-big.jpg" width="940" height="446.2" alt="Офис компании Техномарт по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
-				</p>
-				</section>
  	</body>
 </html>
