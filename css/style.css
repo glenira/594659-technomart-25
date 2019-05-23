@@ -14,3 +14,181 @@ body {
 a {
   text-decoration: none;
 }
+
+.main-header {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #ffffff;
+  
+  background-color: #f4f7f9;
+}
+
+.main-bar {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+
+  background-color: #293449;
+}
+
+.user-navigation,
+.navigation-item,
+.profile-navigation {
+  list-style: none;
+}
+
+.navigation-item a,
+.main-bar a {
+  color: #ffffff;
+}
+
+.user-navigation a {
+  color: #000000;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
+
+  background-color: #ffffff;
+}
+
+.main-information p {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+  font-style: italic;
+  color: #ee3643;
+}
+
+.information-phone {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #ee3643;
+
+  border: 3px solid white;
+}
+
+.main-contacts p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #32425c;
+}
+
+.navigation-item {
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 400;
+
+  background-color: #32425c;
+  box-shadow: inset 0px -5px 0 0 #293449;
+}
+
+.order-button {
+  background-color: #63a63e;
+}
+
+.main-header-logo {
+  background-color: #ee3643;
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+}
+
+.search-form-button:hover,
+.marks:hover,
+.cart:hover,
+.search-form-button:focus,
+.marks:focus,
+.cart:focus {
+  background-color: #212a3a;
+}
+
+.marks:active,
+.cart:active {
+  background-color: #161d29;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.main-header-logo:hover,
+.main-header-logo:focus {
+  background-color: #ca2c37;
+}
+
+.main-header-logo:active {
+  background-color: #ba2732;
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: #5fbb2d;
+}
+
+.order-button:active {
+  background-color: #518534;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.user-navigation a:hover,
+.user-navigation a:focus {
+  color: #ee3643;
+}
+
+.user-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.navigation-item a:hover,
+.navigation-item a:focus {
+  background-color: #293449;
+}
+
+.navigation-item a:active {
+  background-color: #1d2739;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/*Разметка страницы каталога*/
+
+.profile-name {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.profile-navigation a {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #32425c;
+  
+  text-decoration: underline;
+}
+
+.cart-catalog {
+  background-color: #ee3643;	
+}
+
+.profile-navigation a:hover,
+.profile-navigation a:focus {
+  color: #ee3643;
+}
+
+.profile-navigation a:active {
+  color: rgba(50, 66, 92, 0.3);
+}
+
+.cart-catalog:hover,
+.cart-catalog:focus {
+  background-color: #ca2c37;
+}
+
+.cart-catalog:active {
+  background-color: #ba2732;
+}
+
+.profile-name:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
