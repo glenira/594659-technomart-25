@@ -252,3 +252,49 @@ input[type=search]::-ms-clear {
 .modal {
   display: none;
 }
+
+/*Разметка секции информации о компании на главной странице */
+
+.company-information {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.company-information h2 {
+  font-family: Cuprum;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.delivery-list {
+  font-family: Cuprum;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #000000;
+
+  list-style-type: none;
+}
+
+.btn {
+  font-family: Cuprum;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #ca2c37;
+  transition: background-color 0.3s ease;
+}
+
+.btn:focus {
+  background-color: #ba2732;
+  transition: background-color 0.3s ease;
+}
