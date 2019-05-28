@@ -15,6 +15,8 @@ a {
   text-decoration: none;
 }
 
+/*Разметка header главной страницы*/
+
 .main-header {
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
@@ -191,7 +193,7 @@ input[type=search]::-ms-clear {
   color: rgba(255, 255, 255, 0.5);
 }
 
-/*Разметка страницы каталога*/
+/*Разметка header страницы каталога*/
 
 .profile-name {
   color: #000000;
@@ -243,4 +245,10 @@ input[type=search]::-ms-clear {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+/*Модальные формы временно скрыты*/
+
+.modal {
+  display: none;
 }
