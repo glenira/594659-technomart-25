@@ -206,8 +206,8 @@ input[type=search]::-ms-clear {
   line-height: 18px;
   font-weight: 400;
   color: #32425c;
-  
-  text-decoration: underline;
+  transition: 300ms;
+  border-bottom: 1.5px solid #32425c;
 }
 
 .cart-catalog {
@@ -217,10 +217,12 @@ input[type=search]::-ms-clear {
 .profile-navigation a:hover,
 .profile-navigation a:focus {
   color: #ee3643;
+  border-bottom: 1.5px solid #ee3643;
 }
 
 .profile-navigation a:active {
   color: rgba(50, 66, 92, 0.3);
+  border-bottom: 1.5px solid rgba(50, 66, 92, 0.3);
 }
 
 .cart-catalog:hover,
