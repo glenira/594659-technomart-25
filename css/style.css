@@ -253,7 +253,7 @@ input[type=search]::-ms-clear {
   display: none;
 }
 
-/*Разметка секции информации о компании на главной странице */
+/*Стилизация секции информации о компании на главной странице */
 
 .company-information {
   font-size: 13px;
@@ -298,3 +298,163 @@ input[type=search]::-ms-clear {
   background-color: #ba2732;
   transition: background-color 0.3s ease;
 }
+
+/*Стилизация содержимого каталога */
+
+.breadcrumbs {
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  list-style: none;
+}
+
+.breadcrumbs a {
+  color: #000000;
+}
+
+.catalog-heading {
+  font-family: Cuprum;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #32425c;
+  text-transform: uppercase;
+
+  background-color: #f2f6f8;
+}
+
+.filters {
+  text-transform: uppercase;
+}
+
+.filter fieldset {
+  border: none;
+}
+
+.brands {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.plugs-type {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 0.17px;
+}
+
+.filter ul {
+  font-size: 15px;
+  list-style: none;
+  line-height: 20px;
+}
+
+.filter-input:disabled + label {
+  color: rgba(0, 0, 0, 0.4)
+}
+
+.filter-button {
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  border: solid 1px #e5e5e5;
+  background-color: #ffffff;
+  outline: none;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  border: solid 1px #bdc6ca;
+  transition: border 0.3s ease;
+}
+
+.filter-button:active {
+  border: solid 1px #ee3643;
+  transition: border 0.3s ease;
+}
+/*Стилизация карточек товаров */
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item {
+  border: solid 1px #e5e5e5;
+  background-color: #ffffff;
+}
+
+.catalog-item:hover {
+  box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+
+.buy-button {
+  font-family: Cuprum;
+  font-size: 14px; 
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  box-shadow: inset 0px -3px 0 0 #367315;
+  background-color: #63a63e;
+  outline: none;
+}
+
+.buy-button:hover,
+.buy-button:focus {
+  background-color: #5fbb2d;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:active {
+  background-color: #518534;
+  transition: background-color 0.3s ease;
+}
+
+.bookmark-button {
+  font-family: Cuprum;
+  font-size: 14px; 
+  line-height: 18px;
+  color: #32425c;
+  text-transform: uppercase;
+  border: solid 3px #63a63e;
+  outline: none;
+}
+
+.bookmark-button:hover,
+.bookmark-button:focus {
+  border: solid 3px #32425c;
+  transition: border 0.3s ease;
+}
+
+.bookmark-button:active {
+  opacity: 0.3;
+  border: solid 3px #32425c;
+  transition: opacity 0.3s ease;
+}
+
+.catalog-category {
+  font-size: 18px; 
+  line-height: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.catalog-item-price {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.catalog-item-price-old {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 18px;
+  letter-spacing: normal;
+  color: #999999;
+  text-decoration: line-through;
+}
+
+
