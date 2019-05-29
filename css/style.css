@@ -125,6 +125,7 @@ a {
 *:focus {
    transition: background-color 0.3s ease;
    transition: color 0.3s ease;
+   outline: none;
 }
 
 .search-form-button:hover,
@@ -134,12 +135,14 @@ a {
 .marks:focus,
 .cart:focus {
   background-color: #212a3a;
+  outline: none;
 }
 
 .marks:active,
 .cart:active {
   background-color: #161d29;
   color: rgba(255, 255, 255, 0.6);
+  outline: none;
 }
 
 .search-form input:focus {
@@ -158,39 +161,47 @@ input[type=search]::-ms-clear {
 .main-header-logo:hover,
 .main-header-logo:focus {
   background-color: #ca2c37;
+  outline: none;
 }
 
 .main-header-logo:active {
   background-color: #ba2732;
+  outline: none;
 }
 
 .order-button:hover,
 .order-button:focus {
   background-color: #5fbb2d;
+  outline: none;
 }
 
 .order-button:active {
   background-color: #518534;
   color: rgba(255, 255, 255, 0.5);
+  outline: none;
 }
 
 .user-navigation a:hover,
 .user-navigation a:focus {
   color: #ee3643;
+  outline: none;
 }
 
 .user-navigation a:active {
   color: rgba(0, 0, 0, 0.3);
+  outline: none;
 }
 
 .navigation-item a:hover,
 .navigation-item a:focus {
   background-color: #293449;
+  outline: none;
 }
 
 .navigation-item a:active {
   background-color: #1d2739;
   color: rgba(255, 255, 255, 0.5);
+  outline: none;
 }
 
 /*Разметка header страницы каталога*/
@@ -218,24 +229,29 @@ input[type=search]::-ms-clear {
 .profile-navigation a:focus {
   color: #ee3643;
   border-bottom: 1.5px solid #ee3643;
+  outline: none;
 }
 
 .profile-navigation a:active {
   color: rgba(50, 66, 92, 0.3);
   border-bottom: 1.5px solid rgba(50, 66, 92, 0.3);
+  outline: none;
 }
 
 .cart-catalog:hover,
 .cart-catalog:focus {
   background-color: #ca2c37;
+  outline: none;
 }
 
 .cart-catalog:active {
   background-color: #ba2732;
+  outline: none;
 }
 
 .profile-name:active {
   color: rgba(0, 0, 0, 0.3);
+  outline: none;
 }
 
 .visually-hidden {
@@ -294,11 +310,13 @@ input[type=search]::-ms-clear {
 .btn:focus {
   background-color: #ca2c37;
   transition: background-color 0.3s ease;
+  outline: none;
 }
 
 .btn:focus {
   background-color: #ba2732;
   transition: background-color 0.3s ease;
+  outline: none;
 }
 
 /*Стилизация содержимого каталога */
@@ -370,11 +388,13 @@ input[type=search]::-ms-clear {
 .filter-button:focus {
   border: solid 1px #bdc6ca;
   transition: border 0.3s ease;
+  outline: none;
 }
 
 .filter-button:active {
   border: solid 1px #ee3643;
   transition: border 0.3s ease;
+  outline: none;
 }
 /*Стилизация карточек товаров */
 
@@ -389,6 +409,7 @@ input[type=search]::-ms-clear {
 
 .catalog-item:hover {
   box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
+  outline: none;
 }
 
 .buy-button {
@@ -406,11 +427,13 @@ input[type=search]::-ms-clear {
 .buy-button:focus {
   background-color: #5fbb2d;
   transition: background-color 0.3s ease;
+  outline: none;
 }
 
 .buy-button:active {
   background-color: #518534;
   transition: background-color 0.3s ease;
+  outline: none;
 }
 
 .bookmark-button {
@@ -427,6 +450,7 @@ input[type=search]::-ms-clear {
 .bookmark-button:focus {
   border: solid 3px #32425c;
   transition: border 0.3s ease;
+  outline: none;
 }
 
 .bookmark-button:active {
@@ -501,16 +525,19 @@ input[type=search]::-ms-clear {
 .footer-navigation a:hover,
 .footer-navigation a:focus {
   border-color: #f1f5f7;
+  outline: none;
 }
 
 .footer-links a:hover,
 .footer-links a:focus {
   border-color: #ffd180;
+  outline: none;
 }
 
 .footer-top li:active {
   opacity: 0.5;
   transition: opacity 0.3s ease;
+  outline: none;
 }
 
 .social-button {
@@ -523,6 +550,7 @@ input[type=search]::-ms-clear {
 .social-button:active {
   background-color: #ee3643;
   transition: background-color 0.3s ease;
+  outline: none;
 }
   
 .footer-bottom {
@@ -542,10 +570,12 @@ input[type=search]::-ms-clear {
 .footer-mail-button:focus,
 .footer-developer-button:focus {
   border-color: #ffd180;
+  outline: none;
 }
 
 .footer-mail-button:active,
 .footer-developer-button:active {
   color: #ee3643;
   transition: color 0.3s ease;
+  outline: none;
 }
