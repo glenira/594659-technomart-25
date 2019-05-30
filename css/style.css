@@ -150,6 +150,14 @@ a {
   background-color: #ffffff;
 }
 
+input[type='search']::-webkit-search-cancel-button {
+  display: none;
+}
+
+input[type=search]::-ms-clear {
+  display: none; width : 0; height: 0;
+}
+
 .main-header-logo:hover,
 .main-header-logo:focus {
   background-color: #ca2c37;
