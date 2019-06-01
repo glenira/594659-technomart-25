@@ -579,3 +579,55 @@ input[type=search]::-ms-clear {
   transition: color 0.3s ease;
   outline: none;
 }
+
+/*Строим сетку*/
+
+.main-header {
+  margin-bottom: 59px;
+}
+
+.wrapper-main-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 46px;
+  height: 42px;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.main-header-logo {
+  position: relative;
+  text-align: center;
+  width: 220px;
+  height: 47px;
+}
+
+.main-header-logo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: inline-block;
+}
+
+.search-form-button {
+  line-height: 42px;
+  padding: 0;
+  width: 270px;
+}
+
+.marks {
+  line-height: 42px;
+  width: 150px;
+}
+
+.cart {
+  line-height: 42px;
+  width: 150px;
+}
+
+.order-button {
+  line-height: 42px;
+  width: 150px;
+}
+
