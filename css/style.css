@@ -761,3 +761,11 @@ input[type=search]::-ms-clear {
 .company-contacts {
   margin-right: 130px;
 }
+
+.breadcrumbs {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 0;
+}
