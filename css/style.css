@@ -586,10 +586,13 @@ input[type=search]::-ms-clear {
   margin-bottom: 59px;
 }
 
+.main-bar {
+  margin-bottom: 46px;
+}
+
 .wrapper-main-bar {
   display: flex;
   align-items: center;
-  margin-bottom: 46px;
   height: 42px;
   width: 940px;
   margin: 0 auto;
@@ -629,5 +632,108 @@ input[type=search]::-ms-clear {
 .order-button {
   line-height: 42px;
   width: 150px;
+}
+
+.wrapper-main-information {
+  display: flex;
+  margin-bottom: 44px;
+/*  height: 42px;*/
+  width: 940px;
+  margin: 0 auto;
+}
+
+.about {
+  margin: 0;
+  margin-left: 53px;
+  margin-top: 8px;
+}
+
+.main-contacts {
+  margin-left: 71px;
+}
+
+.information-phone {
+  display: block;
+  padding-top: 10px;
+  padding-right: 49px;
+  padding-bottom: 8px;
+  padding-left: 71px;
+
+}
+
+.information-addres {
+  display: inline-block;
+  margin: 0px;
+  padding: 10px 10px 10px 10px;
+}
+
+.user-navigation {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-left: 69px;
+}
+
+.sign-in-button {
+  display: block;
+  padding-top: 14px;
+  padding-right: 27px;
+  padding-bottom: 11px;
+  padding-left: 48px;
+
+}
+
+.sign-up-button {
+  display: block;
+  margin-left: 10px;
+  padding-top: 14px;
+  padding-right: 25px;
+  padding-bottom: 11px;
+  padding-left: 25px;
+}
+
+.navigation-item {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.profile-user {
+  margin-left: 51px;
+}
+
+.profile-name {
+  display: block;
+  padding-top: 14px;
+  padding-right: 69px;
+  padding-bottom: 11px;
+  padding-left: 47px;
+}
+
+.profile-navigation {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.my-order {
+  display: block;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 13px;
+}
+
+.dot {
+  display: block;
+  width: 4px;
+  height: 5px;
+  background-color: #32425c;
+  margin-top: 14px;
+}
+
+.account {
+  display: block;
+  padding-top: 10px;
+  padding-left: 13px;
 }
 
