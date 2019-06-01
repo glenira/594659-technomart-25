@@ -698,6 +698,7 @@ input[type=search]::-ms-clear {
   display: flex;
   width: 940px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .profile-user {
@@ -746,3 +747,17 @@ input[type=search]::-ms-clear {
   margin-bottom: 60px;
 }
 
+.company-information {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+  margin-bottom: 86px;
+}
+
+.company-description {
+  margin-right: 120px;
+}
+
+.company-contacts {
+  margin-right: 130px;
+}
