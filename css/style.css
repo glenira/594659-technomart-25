@@ -634,10 +634,12 @@ input[type=search]::-ms-clear {
   width: 150px;
 }
 
+.main-information {
+  margin-bottom: 44px;
+}
+
 .wrapper-main-information {
   display: flex;
-  margin-bottom: 44px;
-/*  height: 42px;*/
   width: 940px;
   margin: 0 auto;
 }
@@ -735,5 +737,12 @@ input[type=search]::-ms-clear {
   display: block;
   padding-top: 10px;
   padding-left: 13px;
+}
+
+.profile-navigation {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 60px;
 }
 
