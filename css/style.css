@@ -769,3 +769,36 @@ input[type=search]::-ms-clear {
   margin-bottom: 25px;
   padding: 0;
 }
+
+.catalog-heading {
+  width: 940px;
+  margin: 0 auto;
+  min-height: 89px;
+  margin-bottom: 20px;
+}
+
+.wrapper-main-catalog {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+
+}
+
+.wrapper-child {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.catalog-item {
+  width: 220px;
+  margin: 0;
+  margin-bottom: 21px;
+  margin-right: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.catalog-item:nth-child(3n) {
+  margin-right: 0;
+}
