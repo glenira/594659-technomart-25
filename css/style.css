@@ -629,6 +629,11 @@ input[type=search]::-ms-clear {
   width: 150px;
 }
 
+.cart-catalog {
+  line-height: 42px;
+  width: 150px;
+}
+
 .order-button {
   line-height: 42px;
   width: 150px;
