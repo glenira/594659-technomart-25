@@ -751,16 +751,16 @@ input[type=search]::-ms-clear {
   display: flex;
   width: 940px;
   margin: 0 auto;
-  margin-bottom: 86px;
+  margin-bottom: 13px;
 }
 
 .company-description {
   margin-right: 120px;
 }
 
-.company-contacts {
+/*.company-contacts {
   margin-right: 130px;
-}
+}*/
 
 .breadcrumbs {
   display: flex;
@@ -801,4 +801,75 @@ input[type=search]::-ms-clear {
 
 .catalog-item:nth-child(3n) {
   margin-right: 0;
+}
+
+.main-footer {
+  margin-top: 73px;
+}
+
+.wrapper-center {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.wrapper-footer-top {
+  display: flex;
+}
+
+.footer-navigation {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.main-footer-logo {
+  position: relative;
+  text-align: center;
+  width: 220px;
+  height: 68px;
+}
+
+.main-footer-logo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: inline-block;
+}
+
+.wrap-footer-top {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-contacts p {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-top {
+  margin-bottom: 53px;
+}
+
+.footer-bottom {
+  display: flex;
+}
+
+.footer-social {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper-connection {
+  display: flex;
+  padding: 0;
+  margin: 0;
 }
