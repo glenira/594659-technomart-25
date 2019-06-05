@@ -346,10 +346,14 @@ input[type=search]::-ms-clear {
 
 .filters {
   text-transform: uppercase;
+  width: 220px;
+  margin-right: 20px;
 }
 
 .filter fieldset {
   border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .brands {
@@ -399,6 +403,8 @@ input[type=search]::-ms-clear {
 /*Стилизация карточек товаров */
 
 .catalog-list {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -421,6 +427,7 @@ input[type=search]::-ms-clear {
   box-shadow: inset 0px -3px 0 0 #367315;
   background-color: #63a63e;
   outline: none;
+  padding: 10px 3px;
 }
 
 .buy-button:hover,
@@ -444,6 +451,7 @@ input[type=search]::-ms-clear {
   text-transform: uppercase;
   border: solid 3px #63a63e;
   outline: none;
+  padding: 7px 0;
 }
 
 .bookmark-button:hover,
@@ -459,7 +467,7 @@ input[type=search]::-ms-clear {
   transition: opacity 0.3s ease;
 }
 
-.catalog-category {
+.catalog-title {
   font-size: 18px; 
   line-height: 20px;
   font-weight: bold;
@@ -763,10 +771,6 @@ input[type=search]::-ms-clear {
   margin-right: 120px;
 }
 
-/*.company-contacts {
-  margin-right: 130px;
-}*/
-
 .breadcrumbs {
   display: flex;
   width: 940px;
@@ -784,24 +788,142 @@ input[type=search]::-ms-clear {
 
 .wrapper-main-catalog {
   display: flex;
+  justify-content: space-between;
   width: 940px;
   margin: 0 auto;
   margin-bottom: 25px;
 
 }
 
-.wrapper-child {
+.catalog-list {
+  width: 700px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
 
 .catalog-item {
-  width: 220px;
+  position: relative;
+/*  display: inline-block;*/
+  width: 218px;
   margin: 0;
-  margin-bottom: 21px;
+  margin-bottom: 20px;
   margin-right: 20px;
   padding: 0;
   list-style: none;
+  text-align: center; 
+}
+
+.flag {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  
+  width: 60px;
+  height: 60px;
+  
+  text-indent: -1000px;
+  overflow: hidden;
+  z-index: 20;
+}
+
+.flag-new {
+  background: url("../img/new-flag.png") no-repeat 0 0;
+}
+
+.item-actions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  width: 218px;
+  height: 88px;
+  padding: 40px 0;
+  
+  background-color: rgba(255,255,255);
+  z-index: 10;
+}
+
+.buy-button,
+.bookmark-button {
+  display: block;
+  width: 129px;
+  margin: 0 auto;
+  margin-bottom: 7px;
+  
+  background-color: #63a63e;
+  border-bottom-color: #367315;
+  border-radius:3px;
+  
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Cuprum", sans-serif;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.bookmark-button {
+  color: #32425c;
+  background: white;
+  border-bottom-color: #63a63e;
+}
+
+.catalog-item .item-actions {
+  display: none;
+}
+
+.catalog-item:hover .item-actions {
+  display: block;
+}
+
+.catalog-item-image {
+  width: 218px;
+  height: 168px;
+}
+
+.catalog-item-image img {
+  max-width: 100%;
+}
+
+.catalog-title {
+  min-height: 40px;
+  padding: 0 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;    
+}
+
+.catalog-item-price-old {
+  min-height: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.catalog-item-price {
+  position: relative;
+  width: 80px;
+  margin: 10px auto;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  
+  color: white;
+  background: #ee3643;
+  border-radius: 3px;
+}
+
+.catalog-item-price:after {
+  content: "";
+  
+  position: absolute;
+  top: 0;
+  right: -20px;
+  
+  width: 0;
+  height: 0;
+  
+  border: 19px solid white;
+  border-left-color: #ee3643;
 }
 
 .catalog-item:nth-child(3n) {
