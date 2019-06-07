@@ -100,6 +100,69 @@ a {
 /*  background-color: #ffffff;*/
 }
 
+.user-navigation {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-left: 69px;
+  justify-content: space-between;
+  width: 281px;
+}
+
+.user-navigation li {
+  background-color: #ffffff;
+
+}
+
+.sign-in-button svg {
+  display: inline-block;
+  width: 20px;
+  height: 17px;
+  margin-top: 14px;
+  margin-right: 14px;
+  margin-bottom: 0px;
+  margin-left: 14px;
+}
+
+.sign-in-button svg:hover path,
+.sign-in-button svg:focus path {
+  fill: #32425c;
+}
+
+.sign-in-button svg:active path,
+.sign-in-button svg:active path {
+  fill: #c5c5c5;
+}
+
+.sign-in-button a:hover,
+.sign-in-button a:focus {
+  fill: #32425c;
+  color: #ee3643;
+  outline: none;
+}
+
+.user-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.sign-in-button a {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 23px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.user-navigation .sign-up-button {
+  
+  margin-left: 10px;
+  padding-top: 14px;
+  padding-right: 25px;
+  padding-bottom: 11px;
+  padding-left: 25px;
+}
+
 .main-information p {
   font-size: 16px;
   line-height: 23px;
@@ -1188,69 +1251,6 @@ ul .delivery-item-2 {
   padding: 5px 8px 5px 10px;
   margin-left: 71px;
   font-style: normal;
-}
-
-.user-navigation {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  margin-left: 69px;
-  justify-content: space-between;
-  width: 281px;
-}
-
-.user-navigation li {
-  background-color: #ffffff;
-
-}
-
-.sign-in-button svg {
-  display: inline-block;
-  width: 20px;
-  height: 17px;
-  margin-top: 14px;
-  margin-right: 14px;
-  margin-bottom: 0px;
-  margin-left: 14px;
-}
-
-.sign-in-button svg:hover path,
-.sign-in-button svg:focus path {
-  fill: #32425c;
-}
-
-.sign-in-button svg:active path,
-.sign-in-button svg:active path {
-  fill: #c5c5c5;
-}
-
-.sign-in-button a:hover,
-.sign-in-button a:focus {
-  fill: #32425c;
-  color: #ee3643;
-  outline: none;
-}
-
-.user-navigation a:active {
-  color: rgba(0, 0, 0, 0.3);
-  outline: none;
-}
-
-.sign-in-button a {
-  display: inline-block;
-  margin-top: 10px;
-  margin-right: 23px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-}
-
-.user-navigation .sign-up-button {
-  
-  margin-left: 10px;
-  padding-top: 14px;
-  padding-right: 25px;
-  padding-bottom: 11px;
-  padding-left: 25px;
 }
 
 .navigation-list {
