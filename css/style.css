@@ -18,7 +18,7 @@ a {
   text-decoration: none;
 }
 
-/*Разметка header главной страницы*/
+/*Стилизация header главной страницы*/
 
 .main-header {
   font-family: "Cuprum", Arial, sans-serif;
@@ -217,7 +217,7 @@ input[type=search]::-ms-clear {
   outline: none;
 }
 
-/*Разметка header страницы каталога*/
+/*Стилизация header страницы каталога*/
 
 .profile-navigation a {
   font-size: 16px;
@@ -272,11 +272,7 @@ input[type=search]::-ms-clear {
   overflow: hidden;
 }
 
-/*Модальные формы временно скрыты*/
-
-/*.modal {
-  display: none;
-}*/
+/*Стилизация модальных форм*/
 
 .modal {
   position: fixed;
@@ -287,6 +283,8 @@ input[type=search]::-ms-clear {
 
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
 }
+
+/*Стилизация первой модальной формы*/
 
 .modal-communication {
   top: 10%;
@@ -318,11 +316,11 @@ input[type=search]::-ms-clear {
   content: "";
 
   position: absolute;
-  top: 10px;
-  left: -35px;
+  top: 8px;
+  left: -43px;
 
-  width: 22px;
-  height: 3px;
+  width: 27px;
+  height: 4px;
 
   background-color: #ee3643;
 }
@@ -391,6 +389,7 @@ input[type=search]::-ms-clear {
   background-color: #ffffff;
   font-size: 13px;
   line-height: 18px;
+  resize: none;
 }
 
 .modal-communication-top {
@@ -408,6 +407,39 @@ input[type=search]::-ms-clear {
   margin: 37px 80px;
   padding: 10px 200px;
 }
+
+/*Временно скрываем модальную форму*/
+
+.modal-communication {
+  display: none;
+}
+
+/*Стилизация второй модальной формы*/
+
+.modal-map {
+  top: 50%;
+  left: 50%;
+
+  width: 940px;
+  height: 446px;
+
+  margin-top: -225px;
+  margin-left: -465px;
+
+  z-index: 15;
+}
+
+.modal-map p {
+  margin: 0;
+  padding: 0;
+}
+
+/*Временно скрываем модальную форму*/
+
+.modal-map {
+  display: none;
+}
+
 
 /*Стилизация секции информации о компании на главной странице */
 
