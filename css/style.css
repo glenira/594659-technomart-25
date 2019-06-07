@@ -534,6 +534,12 @@ input[type=search]::-ms-clear {
   cursor: pointer;
 }
 
+/*Временно скрываем модальную форму*/
+
+.modal-item-added {
+  display: none;
+}
+
 /*Стилизация секции информации о компании на главной странице */
 
 .company-information {
