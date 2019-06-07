@@ -194,17 +194,6 @@ input[type=search]::-ms-clear {
   outline: none;
 }
 
-.user-navigation a:hover,
-.user-navigation a:focus {
-  color: #ee3643;
-  outline: none;
-}
-
-.user-navigation a:active {
-  color: rgba(0, 0, 0, 0.3);
-  outline: none;
-}
-
 .navigation-item a:hover,
 .navigation-item a:focus {
   background-color: #293449;
@@ -1223,6 +1212,28 @@ ul .delivery-item-2 {
   margin-right: 14px;
   margin-bottom: 0px;
   margin-left: 14px;
+}
+
+.sign-in-button svg:hover path,
+.sign-in-button svg:focus path {
+  fill: #32425c;
+}
+
+.sign-in-button svg:active path,
+.sign-in-button svg:active path {
+  fill: #c5c5c5;
+}
+
+.sign-in-button a:hover,
+.sign-in-button a:focus {
+  fill: #32425c;
+  color: #ee3643;
+  outline: none;
+}
+
+.user-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+  outline: none;
 }
 
 .sign-in-button a {
