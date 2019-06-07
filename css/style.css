@@ -81,12 +81,12 @@ a {
 }
 
 .user-navigation,
-.navigation-item,
+.navigation-list,
 .profile-navigation {
   list-style: none;
 }
 
-.navigation-item a,
+.navigation-list a,
 .main-bar a {
   color: #ffffff;
 }
@@ -114,7 +114,7 @@ a {
   color: #32425c;
 }
 
-.navigation-item {
+.navigation-list {
   font-size: 17px;
   line-height: 17px;
   font-weight: 400;
@@ -194,13 +194,13 @@ input[type=search]::-ms-clear {
   outline: none;
 }
 
-.navigation-item a:hover,
-.navigation-item a:focus {
+.navigation-list a:hover,
+.navigation-list a:focus {
   background-color: #293449;
   outline: none;
 }
 
-.navigation-item a:active {
+.navigation-list a:active {
   background-color: #1d2739;
   color: rgba(255, 255, 255, 0.5);
   outline: none;
@@ -1253,21 +1253,26 @@ ul .delivery-item-2 {
   padding-left: 25px;
 }
 
-.navigation-item {
+.navigation-list {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   position: relative;
   text-align: center;
   width: 940px;
   margin: 0 auto;
-  padding: 0;
-  padding: 20px 30px;
+  padding: 0 19px;
   vertical-align: middle;
+
 }
 
-.navigation-item a {
+.navigation-list a {
+  display: block;
   text-align: center;
-  padding: 18px 30px;
+  padding-top: 18px;
+  padding-right: 31px;
+  padding-bottom: 22px;
+  padding-left: 31px;
   vertical-align: middle;
 }
 
