@@ -440,6 +440,87 @@ input[type=search]::-ms-clear {
   display: none;
 }
 
+/*Стилизация модального окна в каталоге*/
+
+.modal-item-added {
+  top: 50%;
+  left: 50%;
+
+  width: 620px;
+  height: 282px;
+
+  margin-top: -150px;
+  margin-left: -310px;
+
+  z-index: 15;
+
+  border-top: 7px solid #ff5257;
+}
+
+.item-added-top h2 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  padding-top: 64px;
+  padding-right: 120px;
+  padding-bottom: 68px;
+  padding-left: 180px;
+
+  font-family: Cuprum;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.item-added-top h2::before {
+  content: "";
+  position: absolute;
+  left: 80px;
+  top: 45px;
+
+  width: 66px;
+  height: 66px;
+
+  background-image: url("../img/icon-mark.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.item-added-bottom {
+  background-color: #f4f4f4;
+  padding-top: 37px;
+  padding-right: 75px;
+  padding-bottom: 37px;
+  padding-left: 78px;
+}
+
+.checkout {
+  width: 220px;
+  padding-top: 10px;
+  padding-right: 60px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  margin-right: 20px;
+}
+
+.сontinue-shopping {
+  width: 220px;
+  font-family: Cuprum;
+  font-size: 14px;
+  line-height: 14px;
+  color: #000000;
+  text-transform: uppercase;
+  padding-top: 14px;
+  padding-right: 43px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+}
 
 /*Стилизация секции информации о компании на главной странице */
 
@@ -719,6 +800,7 @@ ul .delivery-item-2 {
 }
 
 .filter-button {
+  margin: 0;
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
@@ -727,6 +809,7 @@ ul .delivery-item-2 {
   outline: none;
   margin-top: 40px;
   padding: 9px 40px;
+  width: 140px;
 }
 
 .filter-button:hover,
