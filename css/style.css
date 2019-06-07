@@ -408,6 +408,18 @@ input[type=search]::-ms-clear {
   padding: 10px 200px;
 }
 
+.modal-communication-top input:hover,
+.modal-communication-top input:focus {
+  border-color: #b5b5b5;
+  transition: border-color 0.3s ease;
+}
+
+.modal-communication-top input:active,
+.modal-communication-top input:active {
+  border-color: #ee3643;
+  transition: border-color 0.3s ease;
+}
+
 /*Временно скрываем модальную форму*/
 
 .modal-communication {
