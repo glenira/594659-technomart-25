@@ -171,13 +171,13 @@ input[type=search]::-ms-clear {
   display: none; width : 0; height: 0;
 }
 
-.main-header-logo:hover,
-.main-header-logo:focus {
+.logo-interactive:hover,
+.logo-interactive:focus {
   background-color: #ca2c37;
   outline: none;
 }
 
-.main-header-logo:active {
+.logo-interactive:active {
   background-color: #ba2732;
   outline: none;
 }
