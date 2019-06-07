@@ -1259,7 +1259,6 @@ ul .delivery-item-2 {
   position: relative;
   text-align: center;
   width: 940px;
-  min-height: 60px;
   margin: 0 auto;
   padding: 0;
   padding: 20px 30px;
@@ -1268,7 +1267,7 @@ ul .delivery-item-2 {
 
 .navigation-item a {
   text-align: center;
-  padding: 21px 30px;
+  padding: 18px 30px;
   vertical-align: middle;
 }
 
