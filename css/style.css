@@ -594,6 +594,80 @@ input[type=search]::-ms-clear {
   color: #ffffff;
 }
 
+/*Стилизация слайдера*/
+.main-slider {
+  background-color: white;
+  height: 266px;
+/*  margin: 40px auto;*/
+margin-left: 165px;
+  width: 620px;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider input[type="radio"] {
+  display: none;
+}
+
+.slider-inner {
+  overflow: hidden;
+}
+
+.slider-slides {
+  width: 200%;
+}
+
+.slider-slides img {
+  width: 620px;
+  height: 266px;
+  float: left;
+}
+
+.slider-controls {
+  position: relative;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.slider-controls label {
+  z-index: 18;
+  display: inline-block;
+  margin: 0 3px;
+  width: 22px;
+  height: 40px;
+
+  cursor: pointer;
+}
+
+.l-btn-1 {
+  position: absolute;
+  top: 113px;
+  left: 20px;
+}
+
+.l-btn-2 {
+  position: absolute;
+  top: 113px;
+  left: 570px;
+}
+
+#btn-1:checked ~ .slider-controls label[for="btn-1"],
+#btn-2:checked ~ .slider-controls label[for="btn-2"] {
+/*  background-color: #666666;*/
+}
+
+#btn-1:checked ~ .slider-inner .slider-slides {
+  transform: translate(0);
+}
+
+#btn-2:checked ~ .slider-inner .slider-slides {
+  transform: translate(-620px);
+}
+
+/*Стилизация информации о компании на главной*/
+
 .company-information {
   display: flex;
   font-size: 13px;
