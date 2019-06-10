@@ -598,12 +598,13 @@ input[type=search]::-ms-clear {
 .main-slider {
   background-color: white;
   height: 266px;
-  margin-left: 165px;
   width: 620px;
 }
 
 .slider {
   position: relative;
+  width: 620px;
+  height: 266px;
 }
 
 .slider input[type="radio"] {
@@ -667,7 +668,7 @@ input[type=search]::-ms-clear {
 
 /*Стилизация внутреннего оформления слайдера*/
 
-.slider-mask h3{
+.slider-mask p:nth-child(1) {
   font-family: Cuprum;
   font-size: 36px;
   font-weight: bold;
@@ -680,7 +681,7 @@ input[type=search]::-ms-clear {
   color: #ffffff;
 }
 
-.slider-mask p {
+.slider-mask p:nth-child(2) {
   font-family: Cuprum;
   font-size: 18px;
   font-weight: normal;
@@ -712,6 +713,156 @@ input[type=search]::-ms-clear {
   text-transform: uppercase;
   z-index: 10;
   width: 195px;
+}
+
+/*Стилизация списка Популярные блоки*/
+
+.main-feature {
+  margin-top: 57px;
+}
+
+.main-feature-list{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Cuprum;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+  padding: 0;
+  color: #ffffff;
+  margin: 0 auto;
+  width: 940px;
+}
+
+.main-feature-list li {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 123px;
+  list-style: none;
+}
+
+.main-feature-list li:nth-child(1) {
+  background-color: #ffbf47;
+  background-image: url(../img/icon-1.svg);
+  background-position: 213px 30px;
+  background-repeat: no-repeat;
+
+}
+
+.main-feature-list li:nth-child(2) {
+  background: #3bbce3;
+  position: relative;
+  background-image: url(../img/icon-2.svg);
+  background-position: 213px 30px;
+  background-repeat: no-repeat;
+}
+
+.main-feature-list li:nth-child(3) {
+  background: #dc91d8;
+  background-image: url(../img/icon-3.svg);
+  background-position: 213px 30px;
+  background-repeat: no-repeat;
+}
+
+.main-feature-list li:nth-child(2n) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.flag-index {
+  height: 60px;
+  overflow: hidden;
+  position: absolute;
+  right: 802px;
+  text-indent: -1000px;
+/*  top: -1px;*/
+  width: 60px;
+  z-index: 10;
+}
+
+/*Стилизация боковой панели*/
+
+.main-feature h2 {
+  font-family: Cuprum;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 15px;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-left: 22px;
+}
+
+.wrapper-main-feature {
+  display: flex;
+  
+  font-size:400%;
+  margin: 0 auto;
+  width: 940px;
+  margin-top: 10px;
+}
+
+.mainitem{
+  width: 620px;
+  height: 266px;
+}
+
+.sideitem{
+  display: flex;
+  flex-direction: column;
+}
+
+.item{
+  width: 300px;
+  height: 123px;
+  margin-left:20px;
+  margin-top:10px;
+  background-color: red;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+  padding: 0;
+  text-align: left;
+  color: #ffffff;
+}
+
+.item:first-child { 
+  margin-bottom:10px;
+}
+
+.sideitem div:nth-child(1) {
+  background-color: #8ed78f;
+  background-image: url(../img/icon-4.svg);
+  background-position: 213px 30px;
+  background-repeat: no-repeat;
+}
+
+.sideitem div:nth-child(2) {
+  background-color: #ffc047;
+  background-image: url(../img/icon-5.svg);
+  background-position: 213px 30px;
+  background-repeat: no-repeat;
+}
+
+.btn-grey {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: #ffffff;
+  display: block;
+  font-family: Cuprum;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  margin-left: 23px;
+  padding: 11px 22px;
+  text-transform: uppercase;
+  width: 135px;
 }
 
 /*Стилизация информации о компании на главной*/
