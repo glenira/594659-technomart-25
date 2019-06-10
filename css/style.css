@@ -25,6 +25,17 @@ a {
    outline: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /*Стилизация header главной страницы*/
 
 .main-header {
@@ -499,17 +510,6 @@ input[type=search]::-ms-clear {
 .profile-name:active {
   color: rgba(0, 0, 0, 0.3);
   outline: none;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .navigation-list {
