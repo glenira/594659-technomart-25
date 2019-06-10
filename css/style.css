@@ -62,6 +62,17 @@ a {
   display: inline-block;
 }
 
+.logo-interactive:hover,
+.logo-interactive:focus {
+  background-color: #ca2c37;
+  outline: none;
+}
+
+.logo-interactive:active {
+  background-color: #ba2732;
+  outline: none;
+}
+
 .search-form-button {
   font-size: 17px;
   line-height: 18px;
@@ -377,17 +388,6 @@ input[type=search]::-ms-clear {
   display: none;
   width : 0;
   height: 0;
-}
-
-.logo-interactive:hover,
-.logo-interactive:focus {
-  background-color: #ca2c37;
-  outline: none;
-}
-
-.logo-interactive:active {
-  background-color: #ba2732;
-  outline: none;
 }
 
 .navigation-list a:hover,
