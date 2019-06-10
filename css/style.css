@@ -134,6 +134,43 @@ a {
   color: #ffffff;
 }
 
+.marks {
+  position: relative;
+  width: 150px;
+  padding: 12px 28px 12px 44px;
+}
+
+.marks-count,
+.cart-count {
+  padding-left: 3px;
+}
+
+.marks::before {
+  content: "";
+
+  position: absolute;
+  top: 12px;
+  left: 17px;
+  
+  width: 14px;
+  height: 16px;
+  
+  background-image: url("../img/icon-bookmark.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
+  opacity: 0.3;
+}
+
+.marks:hover::before,
+.marks:focus::before {
+  opacity: 1;
+}
+
+.marks:active::before {
+  opacity: 0.5;
+}
+
 .cart,
 .cart-catalog {
   width: 150px;
@@ -1060,43 +1097,6 @@ ul .delivery-item-2 {
   color: #ee3643;
   transition: color 0.3s ease;
   outline: none;
-}
-
-.marks {
-  position: relative;
-  width: 150px;
-  padding: 12px 28px 12px 44px;
-}
-
-.marks-count,
-.cart-count {
-  padding-left: 3px;
-}
-
-.marks::before {
-  content: "";
-
-  position: absolute;
-  top: 12px;
-  left: 17px;
-  
-  width: 14px;
-  height: 16px;
-  
-  background-image: url("../img/icon-bookmark.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-
-  opacity: 0.3;
-}
-
-.marks:hover::before,
-.marks:focus::before {
-  opacity: 1;
-}
-
-.marks:active::before {
-  opacity: 0.5;
 }
 
 .company-information {
