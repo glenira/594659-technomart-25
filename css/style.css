@@ -1345,25 +1345,32 @@ ul .delivery-item-2 {
 
 .my-order a {
   display: block;
+  position: relative;
   margin-top: 9px;
   margin-right: 14px;
   margin-left: 18px;
   line-height: 14px;
 }
 
-.dot {
-  display: block;
+.my-order a:after {
+  content: "";
+
+  position: absolute;
+  top: 6px;
+  left: 89px;
+  
   width: 4px;
   height: 4px;
+  
   background-color: #32425c;
   border-radius: 2px;
-  margin-top: 14px;
+
 }
 
 .account a {
   display: block;
   margin-top: 9px;
-  margin-left: 14px;
+  margin-left: 17px;
   margin-right: 18px;
   line-height: 14px;
 }
