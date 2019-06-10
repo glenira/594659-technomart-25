@@ -844,6 +844,7 @@ ul .delivery-item-2 {
 .filter-button {
   background-color: #ffffff;
   border: solid 1px #e5e5e5;
+  cursor: pointer;
   font-size: 13px;
   line-height: 18px;
   margin: 0;
