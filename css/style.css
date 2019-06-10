@@ -277,12 +277,6 @@ a {
   box-shadow: inset 0px -5px 0 0 #293449;
 }
 
-.order-button {
-  width: 150px;
-  background-color: #63a63e;
-  padding: 12px 22px 12px 20px;
-}
-
 .search-form-button:hover,
 .marks:hover,
 .cart:hover,
@@ -976,6 +970,12 @@ ul .delivery-item-2 {
   background-position: 0 0;
 
   opacity: 0.3;
+}
+
+.order-button {
+  width: 150px;
+  background-color: #63a63e;
+  padding: 12px 22px 12px 20px;
 }
 
 .cart:hover::before,
