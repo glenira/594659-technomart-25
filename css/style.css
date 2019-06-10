@@ -609,6 +609,31 @@ input[type=search]::-ms-clear {
   line-height: 24px;
 }
 
+.company-information {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+/*  margin-bottom: 84px;*/
+}
+
+.company-description {
+  margin-top: 82px;
+  margin-right: 120px;
+}
+
+.company-contacts {
+  margin-top: 82px;
+}
+
+.wrapper-company {
+  margin-top: 25px;
+}
+
+.contacts-map {
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
 .company-information h2 {
   font-family: Cuprum;
   font-size: 30px;
@@ -1097,31 +1122,6 @@ ul .delivery-item-2 {
   color: #ee3643;
   transition: color 0.3s ease;
   outline: none;
-}
-
-.company-information {
-  display: flex;
-  width: 940px;
-  margin: 0 auto;
-/*  margin-bottom: 84px;*/
-}
-
-.company-description {
-  margin-top: 82px;
-  margin-right: 120px;
-}
-
-.company-contacts {
-  margin-top: 82px;
-}
-
-.wrapper-company {
-  margin-top: 25px;
-}
-
-.contacts-map {
-  margin-top: 30px;
-  margin-bottom: 35px;
 }
 
 .wrapper-main-catalog {
