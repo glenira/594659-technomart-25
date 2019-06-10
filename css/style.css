@@ -936,7 +936,7 @@ ul .delivery-item-2 {
   
 }
 
-/*Стилизация карточек товаров */
+/*Стилизация страницы каталога */
 
 .catalog-list {
   margin: 0;
@@ -1027,110 +1027,12 @@ ul .delivery-item-2 {
   text-decoration: line-through;
 }
 
-/*Базовая стилизация футера*/
-
-.main-footer-logo {
-  background-color: #ee3643;
-  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
-}
-
-.main-footer {
-  font-family: Cuprum;
-  background-color: #32425c;
-}
-
-.main-footer p {
-  color: #f1f5f7;
-}
-
-.footer-top li,
-.footer-bottom li {
-  list-style: none;
-}
-
-.footer-top {
-  font-size: 18px; 
-  line-height: 24px;
-}
-
-.footer-navigation a {
-  transition: 300ms;
-  border-bottom: 1.5px solid transparent;
-  color: #f1f5f7;
-}
-
-.footer-links a {
-  transition: 300ms;
-  border-bottom: 1.5px solid transparent;
-  color: #ffd180;
-}
-
-
-.footer-navigation a:hover,
-.footer-navigation a:focus {
-  border-color: #f1f5f7;
-  outline: none;
-}
-
-.footer-links a:hover,
-.footer-links a:focus {
-  border-color: #ffd180;
-  outline: none;
-}
-
-.footer-top li:active {
-  opacity: 0.5;
-  transition: opacity 0.3s ease;
-  outline: none;
-}
-
-.social-button {
-  color: #ffffff;
-  background-color: #212a3a;
-}
-
-.social-button:hover,
-.social-button:focus,
-.social-button:active {
-  background-color: #ee3643;
-  transition: background-color 0.3s ease;
-  outline: none;
-}
-  
-.footer-bottom {
-  font-size: 16px;
-  line-height: 18px;
-}
-
-.footer-mail-button,
-.footer-developer-button {
-  color: #ffd180;
-  transition: 300ms;
-  border-bottom: 1.5px solid transparent;
-}
-
-.footer-mail-button:hover,
-.footer-developer-button:hover,
-.footer-mail-button:focus,
-.footer-developer-button:focus {
-  border-color: #ffd180;
-  outline: none;
-}
-
-.footer-mail-button:active,
-.footer-developer-button:active {
-  color: #ee3643;
-  transition: color 0.3s ease;
-  outline: none;
-}
-
 .wrapper-main-catalog {
   display: flex;
   justify-content: space-between;
   width: 940px;
   margin: 0 auto;
   margin-bottom: 25px;
-
 }
 
 .catalog-list {
@@ -1278,6 +1180,103 @@ ul .delivery-item-2 {
 
 .catalog-item:nth-child(3n) {
   margin-right: 0;
+}
+
+/*Базовая стилизация футера*/
+
+.main-footer-logo {
+  background-color: #ee3643;
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+}
+
+.main-footer {
+  font-family: Cuprum;
+  background-color: #32425c;
+}
+
+.main-footer p {
+  color: #f1f5f7;
+}
+
+.footer-top li,
+.footer-bottom li {
+  list-style: none;
+}
+
+.footer-top {
+  font-size: 18px; 
+  line-height: 24px;
+}
+
+.footer-navigation a {
+  transition: 300ms;
+  border-bottom: 1.5px solid transparent;
+  color: #f1f5f7;
+}
+
+.footer-links a {
+  transition: 300ms;
+  border-bottom: 1.5px solid transparent;
+  color: #ffd180;
+}
+
+
+.footer-navigation a:hover,
+.footer-navigation a:focus {
+  border-color: #f1f5f7;
+  outline: none;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+  border-color: #ffd180;
+  outline: none;
+}
+
+.footer-top li:active {
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  outline: none;
+}
+
+.social-button {
+  color: #ffffff;
+  background-color: #212a3a;
+}
+
+.social-button:hover,
+.social-button:focus,
+.social-button:active {
+  background-color: #ee3643;
+  transition: background-color 0.3s ease;
+  outline: none;
+}
+  
+.footer-bottom {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer-mail-button,
+.footer-developer-button {
+  color: #ffd180;
+  transition: 300ms;
+  border-bottom: 1.5px solid transparent;
+}
+
+.footer-mail-button:hover,
+.footer-developer-button:hover,
+.footer-mail-button:focus,
+.footer-developer-button:focus {
+  border-color: #ffd180;
+  outline: none;
+}
+
+.footer-mail-button:active,
+.footer-developer-button:active {
+  color: #ee3643;
+  transition: color 0.3s ease;
+  outline: none;
 }
 
 .main-footer {
