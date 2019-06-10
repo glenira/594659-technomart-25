@@ -124,6 +124,80 @@ a {
   color: #ffffff;
 }
 
+.main-information {
+  margin-bottom: 34px;
+}
+
+.wrapper-main-information {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.main-information p {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #ee3643;
+}
+
+.main-contacts p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #32425c;
+}
+
+.about {
+  margin: 0;
+  padding: 0;
+  margin-left: 53px;
+  margin-top: 5px;
+  padding-right: 9px; 
+  width: 196px;
+  font-style: italic
+}
+
+
+.information-phone {
+  position: relative;
+  display: block;
+  padding-top: 10px;
+  padding-left: 72px;
+  padding-bottom: 8px;
+  padding-right: 43px;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #ee3643;
+  width: 270px;
+  border: 3px solid white;
+  margin-left: 71px;
+  font-style: normal;
+}
+
+.information-phone::before {
+  content: "";
+
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  
+  width: 19px;
+  height: 19px;
+  
+  background-image: url("../img/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.information-addres {
+  margin: 0px;
+  padding: 5px 8px 5px 10px;
+  margin-left: 71px;
+  font-style: normal;
+}
+
 .user-navigation a {
   color: #000000;
   margin: 0;
@@ -193,20 +267,6 @@ a {
 .sign-in-button:active path {
   fill: rgba(0, 0, 0, 0.3);
   outline: none;
-}
-
-.main-information p {
-  font-size: 16px;
-  line-height: 23px;
-  font-weight: 400;
-  color: #ee3643;
-}
-
-.main-contacts p {
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #32425c;
 }
 
 .navigation-list {
@@ -929,66 +989,6 @@ ul .delivery-item-2 {
 .cart:active::before,
 .cart-catalog:active::before {
   opacity: 0.5;
-}
-
-.main-information {
-  margin-bottom: 34px;
-}
-
-.wrapper-main-information {
-  display: flex;
-  width: 940px;
-  margin: 0 auto;
-}
-
-.about {
-  margin: 0;
-  padding: 0;
-  margin-left: 53px;
-  margin-top: 5px;
-  padding-right: 9px; 
-  width: 196px;
-  font-style: italic
-}
-
-
-.information-phone {
-  position: relative;
-  display: block;
-  padding-top: 10px;
-  padding-left: 72px;
-  padding-bottom: 8px;
-  padding-right: 43px;
-  font-size: 21px;
-  line-height: 21px;
-  font-weight: 400;
-  color: #ee3643;
-  width: 270px;
-  border: 3px solid white;
-  margin-left: 71px;
-  font-style: normal;
-}
-
-.information-phone::before {
-  content: "";
-
-  position: absolute;
-  top: 10px;
-  left: 12px;
-  
-  width: 19px;
-  height: 19px;
-  
-  background-image: url("../img/icon-phone.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-}
-
-.information-addres {
-  margin: 0px;
-  padding: 5px 8px 5px 10px;
-  margin-left: 71px;
-  font-style: normal;
 }
 
 .navigation-list {
