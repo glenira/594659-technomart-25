@@ -598,8 +598,7 @@ input[type=search]::-ms-clear {
 .main-slider {
   background-color: white;
   height: 266px;
-/*  margin: 40px auto;*/
-margin-left: 165px;
+  margin-left: 165px;
   width: 620px;
 }
 
@@ -664,6 +663,55 @@ margin-left: 165px;
 
 #btn-2:checked ~ .slider-inner .slider-slides {
   transform: translate(-620px);
+}
+
+/*Стилизация внутреннего оформления слайдера*/
+
+.slider-mask h3{
+  font-family: Cuprum;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 36px;
+  margin: 0;
+  margin-bottom: 3px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.slider-mask p {
+  font-family: Cuprum;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 24px;
+  margin: 0;
+  text-align: left;
+  color: #ffffff;
+}
+
+.slider-mask {
+  margin-top: 24px;
+  margin-bottom: 4px;
+  margin-left: 24px;
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+}
+
+.open-catalog {
+  padding-bottom: 10px;
+  padding-left: 45px;
+  padding-top: 10px;
+  padding-right: 45px;
+  position: relative;
+  left: 23px;
+  top: -60px;
+  text-transform: uppercase;
+  z-index: 10;
+  width: 195px;
 }
 
 /*Стилизация информации о компании на главной*/
