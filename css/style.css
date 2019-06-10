@@ -109,16 +109,6 @@ a {
   list-style: none;
 }
 
-.user-navigation {
-  padding: 0;
-  margin: 0;
-  margin-left: 69px;
-  width: 281px;
-  display:flex;
-  align-items:flex-start;
-  justify-content: space-between;
-}
-
 .navigation-list a,
 .main-bar a {
   color: #ffffff;
@@ -198,6 +188,16 @@ a {
   font-style: normal;
 }
 
+.user-navigation {
+  padding: 0;
+  margin: 0;
+  margin-left: 69px;
+  width: 281px;
+  display:flex;
+  align-items:flex-start;
+  justify-content: space-between;
+}
+
 .user-navigation a {
   color: #000000;
   margin: 0;
@@ -214,7 +214,6 @@ a {
   padding-bottom: 10px;
   padding-left: 7px;
 }
-
 
 .sign-in-button a {
   padding-top: 13px;
