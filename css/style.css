@@ -35,8 +35,24 @@ a {
   line-height: 18px;
   font-weight: 400;
   color: #ffffff;
-
   background-color: #293449;
+}
+
+.main-header-logo {
+  position: relative;
+  text-align: center;
+  width: 220px;
+  height: 52px;
+  background-color: #ee3643;
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+}
+
+.main-header-logo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: inline-block;
 }
 
 .search-form-button {
@@ -199,11 +215,6 @@ a {
   width: 150px;
   background-color: #63a63e;
   padding: 12px 22px 12px 20px;
-}
-
-.main-header-logo {
-  background-color: #ee3643;
-  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
 }
 
 *:hover,
@@ -842,22 +853,6 @@ ul .delivery-item-2 {
   height: 42px;
   width: 940px;
   margin: 0 auto;
-}
-
-.main-header-logo {
-  position: relative;
-  text-align: center;
-  width: 220px;
-  height: 52px;
-  
-}
-
-.main-header-logo img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  display: inline-block;
 }
 
 .marks {
