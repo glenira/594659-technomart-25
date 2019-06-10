@@ -1187,6 +1187,7 @@ ul .delivery-item-2 {
 .footer-mail-button:active,
 .footer-developer-button:active {
   color: #ee3643;
+  border-color: #ee3643;
   outline: none;
   transition: color .3s ease;
 }
