@@ -835,6 +835,12 @@ ul .delivery-item-2 {
   color: rgba(0,0,0,0.4);
 }
 
+.button {
+  margin: 37px 80px;
+  padding: 10px 200px;
+  width: 460px;
+}
+
 .filter-button {
   background-color: #ffffff;
   border: solid 1px #e5e5e5;
@@ -1402,11 +1408,7 @@ ul .delivery-item-2 {
   background-color: #f4f4f4;
 }
 
-.button {
-  margin: 37px 80px;
-  padding: 10px 200px;
-  width: 460px;
-}
+
 
 .modal-communication-top input:hover,
 .modal-communication-top input:focus {
