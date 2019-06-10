@@ -43,6 +43,15 @@ a {
   font-weight: 400;
   color: #ffffff;
   background-color: #293449;
+  margin-bottom: 46px;
+}
+
+.wrapper-main-bar {
+  display: flex;
+  align-items: center;
+  height: 42px;
+  width: 940px;
+  margin: 0 auto;
 }
 
 .main-header-logo {
@@ -218,7 +227,6 @@ a {
   font-style: italic
 }
 
-
 .information-phone {
   position: relative;
   display: block;
@@ -338,26 +346,6 @@ a {
   outline: none;
 }
 
-.user-navigation,
-.navigation-list,
-.profile-navigation {
-  list-style: none;
-}
-
-.navigation-list a,
-.main-bar a {
-  color: #ffffff;
-}
-
-.navigation-list {
-  font-size: 17px;
-  line-height: 17px;
-  font-weight: 400;
-
-  background-color: #32425c;
-  box-shadow: inset 0px -5px 0 0 #293449;
-}
-
 .search-form-button:hover,
 .marks:hover,
 .cart:hover,
@@ -400,6 +388,26 @@ input[type=search]::-ms-clear {
   background-color: #1d2739;
   color: rgba(255, 255, 255, 0.5);
   outline: none;
+}
+
+.user-navigation,
+.navigation-list,
+.profile-navigation {
+  list-style: none;
+}
+
+.navigation-list a,
+.main-bar a {
+  color: #ffffff;
+}
+
+.navigation-list {
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 400;
+
+  background-color: #32425c;
+  box-shadow: inset 0px -5px 0 0 #293449;
 }
 
 .profile-user {
@@ -1031,20 +1039,6 @@ ul .delivery-item-2 {
   color: #ee3643;
   transition: color 0.3s ease;
   outline: none;
-}
-
-/*Строим сетку*/
-
-.main-bar {
-  margin-bottom: 46px;
-}
-
-.wrapper-main-bar {
-  display: flex;
-  align-items: center;
-  height: 42px;
-  width: 940px;
-  margin: 0 auto;
 }
 
 .marks {
