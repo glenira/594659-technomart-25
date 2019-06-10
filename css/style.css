@@ -18,6 +18,13 @@ a {
   text-decoration: none;
 }
 
+*:hover,
+*:focus {
+   transition: background-color 0.3s ease;
+   transition: color 0.3s ease;
+   outline: none;
+}
+
 /*Стилизация header главной страницы*/
 
 .main-header {
@@ -215,13 +222,6 @@ a {
   width: 150px;
   background-color: #63a63e;
   padding: 12px 22px 12px 20px;
-}
-
-*:hover,
-*:focus {
-   transition: background-color 0.3s ease;
-   transition: color 0.3s ease;
-   outline: none;
 }
 
 .search-form-button:hover,
