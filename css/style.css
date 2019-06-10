@@ -378,38 +378,6 @@ input[type=search]::-ms-clear {
   height: 0;
 }
 
-.navigation-list a:hover,
-.navigation-list a:focus {
-  background-color: #293449;
-  outline: none;
-}
-
-.navigation-list a:active {
-  background-color: #1d2739;
-  color: rgba(255, 255, 255, 0.5);
-  outline: none;
-}
-
-.user-navigation,
-.navigation-list,
-.profile-navigation {
-  list-style: none;
-}
-
-.navigation-list a,
-.main-bar a {
-  color: #ffffff;
-}
-
-.navigation-list {
-  font-size: 17px;
-  line-height: 17px;
-  font-weight: 400;
-
-  background-color: #32425c;
-  box-shadow: inset 0px -5px 0 0 #293449;
-}
-
 .profile-user {
   margin-left: 51px;
 }
@@ -544,7 +512,60 @@ input[type=search]::-ms-clear {
   overflow: hidden;
 }
 
-/*Стилизация секции информации о компании на главной странице */
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 0;
+  vertical-align: middle;
+}
+
+.navigation-list a {
+  display: block;
+  text-align: center;
+  padding-top: 18px;
+  padding-right: 31px;
+  padding-bottom: 22px;
+  padding-left: 31px;
+  vertical-align: middle;
+}
+
+
+.navigation-list a:hover,
+.navigation-list a:focus {
+  background-color: #293449;
+  outline: none;
+}
+
+.navigation-list a:active {
+  background-color: #1d2739;
+  color: rgba(255, 255, 255, 0.5);
+  outline: none;
+}
+
+.user-navigation,
+.navigation-list,
+.profile-navigation {
+  list-style: none;
+}
+
+.navigation-list a,
+.main-bar a {
+  color: #ffffff;
+}
+
+.navigation-list {
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 400;
+
+  background-color: #32425c;
+  box-shadow: inset 0px -5px 0 0 #293449;
+}
 
 .company-information {
   font-size: 13px;
@@ -1076,28 +1097,6 @@ ul .delivery-item-2 {
 
 .marks:active::before {
   opacity: 0.5;
-}
-
-.navigation-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  position: relative;
-  text-align: center;
-  width: 940px;
-  margin: 0 auto;
-  padding: 0 0;
-  vertical-align: middle;
-}
-
-.navigation-list a {
-  display: block;
-  text-align: center;
-  padding-top: 18px;
-  padding-right: 31px;
-  padding-bottom: 22px;
-  padding-left: 31px;
-  vertical-align: middle;
 }
 
 .company-information {
