@@ -47,6 +47,7 @@ a {
   font-weight: 400;
   line-height: 17px;
   min-height: 320px;
+  min-width: 980px;
 }
 
 .main-bar {
@@ -59,6 +60,7 @@ a {
 }
 
 .wrapper-main-bar {
+  background-color: #293449;
   align-items: center;
   display: flex;
   height: 42px;
@@ -229,6 +231,7 @@ a {
 }
 
 .main-information {
+  background-color: #f4f7f9;
   margin-bottom: 34px;
 }
 
@@ -299,6 +302,7 @@ a {
 }
 
 .user-navigation {
+  background-color: #f4f7f9;
   align-items: flex-start;
   display: flex;
   justify-content: space-between;
