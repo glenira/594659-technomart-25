@@ -1246,6 +1246,19 @@ ul .delivery-item-2 {
   width: 220px;
 }
 
+.filter h2 {
+  width: 220px;
+  background-color: #f7f3ec;
+  font-family: PTSans;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 10px 18px;
+  color: #000000;
+}
+
 .filter fieldset {
   border: none;
   margin: 0;
