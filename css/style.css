@@ -1450,6 +1450,10 @@ ul .delivery-item-2 {
 
 /*Стилизация популярных производителей*/
 
+.popular-brands {
+  margin-bottom: 85px;
+}
+
 .main-brands-list {
   display: flex;
   flex-wrap: wrap;
