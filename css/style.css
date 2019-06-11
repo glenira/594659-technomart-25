@@ -653,9 +653,24 @@ input[type=search]::-ms-clear {
   left: 570px;
 }
 
-#btn-1:checked ~ .slider-controls label[for="btn-1"],
-#btn-2:checked ~ .slider-controls label[for="btn-2"] {
-/*  background-color: #666666;*/
+.slider-sides-1 img {
+  position: relative;
+}
+
+.slider-sides-2 img {
+  position: relative;
+}
+
+.mask-1 {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+
+.mask-2 {
+  position: absolute;
+  top: 30px;
+  left: 620px;
 }
 
 #btn-1:checked ~ .slider-inner .slider-slides {
