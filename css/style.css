@@ -1439,6 +1439,35 @@ ul .delivery-item-2 {
   margin-right: 0;
 }
 
+/*Стилизация популярных производителей*/
+
+.main-brands-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+  width: 940px;
+}
+
+.main-brands-list li {
+  border: solid 1px #eaeaea;
+  height: 145px;
+  list-style: none;
+  margin-bottom: 20px;
+  position: relative;
+  width: 220px;
+}
+
+.main-brands-list img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+
 /*Стилизация футера*/
 
 .main-footer-logo {
