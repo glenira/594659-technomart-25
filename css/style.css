@@ -1244,7 +1244,7 @@ ul .delivery-item-2 {
   justify-content: space-between;
   width: 940px;
   margin: 0 auto;
-  margin-bottom: 10px;
+
 }
 
 .sort-top p {
@@ -1913,6 +1913,77 @@ input[type='range']:nth-child(1)::-webkit-slider-thumb{
   box-shadow: 0px 4px 10px 0 rgba(41, 52, 73, 0.5);
   background-color: #ffffff;
   opacity: 0.3;
+}
+
+/*Стилизация пагинации*/
+
+.pagination-list {
+  display: flex;
+  flex-wrap: wrap;
+  
+  padding: 0;
+  margin-left: 370px;
+
+  list-style: none;
+
+  width: 940px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding-left: 240px;
+}
+
+.pagination-item {
+  margin-right: 10px;
+  border: solid 1px #e5e5e5;
+  border-radius: 2px;
+}
+
+.pagination-item:last-child {
+  margin-right: 0;
+  width: 140px;
+}
+
+.pagination-item a {
+  display: block;
+  padding: 9px 15px;
+  
+  color: #000000;
+
+  background-color: #ffffff;
+  font-family: PTSans;
+  font-size: 13px;
+  text-align: center;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.pagination-item:hover,
+.pagination-item:focus {
+  border: solid 1px #bdc6ca;
+}
+
+.pagination-item:active {
+  border: solid 1px #ee3643;
+}
+
+.pagination-item-current a {
+  color: #ffffff;
+
+  background-color: #ee3643;
+}
+
+.pagination-item-current {
+  border: solid 1px #ee3643;
+}
+
+
+.pagination-item-current:hover,
+.pagination-item-current:focus,
+.pagination-item-current:active {
+  color: #ffffff;
+
+  background-color: #ee3643;
+  border: solid 1px #ee3643;
 }
 
 /*Стилизация информационной сноски*/
