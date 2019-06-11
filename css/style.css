@@ -1914,6 +1914,40 @@ input[type='range']:nth-child(1)::-webkit-slider-thumb{
   background-color: #ffffff;
   opacity: 0.3;
 }
+
+/*Стилизация информационной сноски*/
+
+.wiki {
+  background-color: #f4f7f9;
+  padding: 65px 0;
+}
+
+.wrapper-wiki {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.wrapper-wiki h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  font-family: Cuprum;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.wrapper-wiki p {
+  margin: 0;
+  padding: 0;
+
+  font-family: PTSans;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+
+}
+
 /*Стилизация футера*/
 
 .main-footer-logo {
@@ -1928,7 +1962,7 @@ input[type='range']:nth-child(1)::-webkit-slider-thumb{
 .main-footer {
   background-color: #32425c;
   font-family: Cuprum;
-  margin-top: 84px;
+/*  margin-top: 84px;*/
 }
 
 .main-footer p {
