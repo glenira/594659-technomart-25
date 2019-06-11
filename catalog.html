@@ -68,10 +68,46 @@
 				<li class="breadcrumbs-current">Перфораторы</li>
 			</ul>
 			<h1 class="catalog-heading">Перфораторы</h1>
+			<div class="sort-top">
+				<p>Фильтр</p>
+				<div class="wrapper-sort">
+					<div class="sort">					
+						<h2>Сортировка:</h2>
+						<ul class="sort-by">
+							<li class="filter-option-by">
+								<input class="filter-input-sort-by" type="radio" name="sort-by-group" value="price" id="filter-price" checked>
+								<label for="filter-price">По цене</label>
+							</li>
+							<li class="filter-option-by">
+								<input class="filter-input-sort-by" type="radio" name="sort-by-group" value="type" id="filter-type">
+								<label for="filter-type">По типу</label>
+							</li>
+							<li class="filter-option-by">
+								<input class="filter-input-sort-by" type="radio" name="sort-by-group" value="function" id="filter-function">
+								<label for="filter-function">По функционалу</label>
+							</li>
+						</ul>
+						<ul class="sort-from-to">
+							<li class="filter-option-from-to">
+								<input class="visually-hidden filter-input filter-input-from-to" type="radio" name="sort-from-to" value="price" id="filter-from-ch" checked>
+								<label for="filter-from-ch">
+									<svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#c5c5c5" d="M5.5 0L0 10h11z"/></svg>
+								</label>
+							</li>
+							<li class="filter-option-from-to">
+								<input class="visually-hidden filter-input filter-input-from-to" type="radio" name="sort-from-to" value="type" id="filter-from-ex">
+								<label for="filter-from-ex">
+									<svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#c5c5c5" d="M5.5 10L0 0h11"/></svg>
+								</label>
+							</li>
+						</ul>			
+					</div>
+				</div>
+			</div>
 			<div class="wrapper-main-catalog">
 				<section class="filters">
 					<form class="filter" method="get" action="https://echo.htmlacademy.ru">
-						<h2>Фильтр</h2>
+						<h2 class="visually-hidden">Фильтр</h2>
 						<fieldset class="field-price">
 							<legend class="price">Цена:</legend>
 								<div class="rangeslider">
