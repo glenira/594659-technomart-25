@@ -719,6 +719,7 @@ input[type=search]::-ms-clear {
 
 .main-feature {
   margin-top: 57px;
+  margin-bottom: 53px;
 }
 
 .main-feature-list{
@@ -1383,6 +1384,64 @@ ul .delivery-item-2 {
 .catalog-item:nth-child(3n) {
   margin-right: 0;
 }
+
+/*Стилизация популярных товаров на главной странице*/
+
+.headline {
+  background-color: #f9f5f0;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  min-height: 89px;
+  width: 940px;
+}
+
+.headline h2 {
+  display: inline-block;
+  font-family: Cuprum;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #32425c;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 14px;
+  padding-left: 30px;
+  padding-right: 365px;
+  padding-top: 34px;
+  text-transform: uppercase;
+}
+
+.headline a {
+  display: inline-block;
+}
+
+.popular-button{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  padding-left: 56px;
+  padding-right: 53px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.popular-list {
+  width: 940px;
+}
+
+.popular-list .catalog-item:nth-child(3n) {
+  margin-right: 20px;
+}
+
+.popular-list .catalog-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+/*Стилизация футера*/
 
 .main-footer-logo {
   background-color: #ee3643;
