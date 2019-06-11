@@ -866,6 +866,15 @@ input[type=search]::-ms-clear {
   width: 135px;
 }
 
+.open-feature:hover,
+.open-feature:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.open-feature:active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 /*Стилизация информации о компании на главной*/
 
 .company-information {
