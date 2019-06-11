@@ -875,6 +875,193 @@ input[type=search]::-ms-clear {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+/*Стилизация Сервисы*/
+.service-back {
+  background-color: #f4f7f9;
+  margin-bottom: 50px;
+}
+
+.wrapper-service-back {
+  margin: 0 auto;
+  width: 940px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.wrapper-service-back > h2 {
+  font-family: Cuprum;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.wrapper-service-back > p {
+  font-family: PTSans;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+/*Стилизация второго слайдера Сервис */
+
+.slider-service-back {
+  margin: 0 auto;
+  background-color: #f4f7f9;
+  width: 940px;
+  height: 286px;
+}
+
+.slider-wrap {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-wrap input[type="radio"] {
+  display: none;
+}
+
+.slider-service-inner {
+  overflow: hidden;
+  height: 285px;
+  overflow: hidden;
+}
+
+.slider-service-slides {
+  transition: transform 0.8s ease;
+  width: 620px;
+}
+
+.slider-service-slides > div {
+  height: 285px;
+}
+
+.slider-service-controls h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Cuprum;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: inherit;
+}
+
+.slider-service-controls {
+  margin-right: 80px;
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.slider-service-controls label {
+  width: 240px;
+  height: 61px;
+  display: block;
+  box-shadow: 0px 1px 0 0 #293449, inset 0px 1px 0 0 #405069;
+  background-color: #32425c;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+#btn-s1:checked ~ .slider-service-controls label[for="btn-s1"],
+#btn-s2:checked ~ .slider-service-controls label[for="btn-s2"],
+#btn-s3:checked ~ .slider-service-controls label[for="btn-s3"] {
+  box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 0 0 #ffffff;
+  background-color: #ffffff;
+  color: #32425c;
+
+}
+
+#btn-s1:checked ~ .slider-service-inner .slider-service-slides {
+  transform: translateY(0);
+}
+
+#btn-s2:checked ~ .slider-service-inner .slider-service-slides {
+  transform: translateY(-285px);
+}
+
+#btn-s3:checked ~ .slider-service-inner .slider-service-slides {
+  transform: translateY(-570px);
+}
+
+.slider-service-slides h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Cuprum;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 36px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #32425c;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.slider-service-slides p {
+  padding: 0;
+  margin: 0;
+  font-family: PTSans;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 24px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.delivery-slider {
+  background-image: url("../img/delivery.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.warranty-slider {
+  background-image: url("../img/guarantee.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.credit-slider {
+  background-image: url("../img/credit.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.slider-service-controls:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 279px;
+  top: -20px;
+  right: 0px;
+  background-image: url("../img/shadow.png");
+  background-repeat: no-repeat;
+
+  z-index: 10;
+}
+
 /*Стилизация информации о компании на главной*/
 
 .company-information {
@@ -887,11 +1074,6 @@ input[type=search]::-ms-clear {
 
 .company-description {
   margin-right: 120px;
-  margin-top: 82px;
-}
-
-.company-contacts {
-  margin-top: 82px;
 }
 
 .wrapper-company {
@@ -1451,7 +1633,7 @@ ul .delivery-item-2 {
 /*Стилизация популярных производителей*/
 
 .popular-brands {
-  margin-bottom: 85px;
+  margin-bottom: 67px;
 }
 
 .main-brands-list {
