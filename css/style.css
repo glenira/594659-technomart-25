@@ -1343,6 +1343,26 @@ ul .delivery-item-2 {
 #filter-function:checked ~ label[for="filter-function"] {
   color: #ee3643;
   border-bottom: none;
+  transition: .1s ease;
+}
+
+#filter-price:hover ~ label[for="filter-price"],
+#filter-type:hover ~ label[for="filter-type"],
+#filter-function:hover ~ label[for="filter-function"],
+#filter-price:focus ~ label[for="filter-price"],
+#filter-type:focus ~ label[for="filter-type"],
+#filter-function:focus ~ label[for="filter-function"] {
+  color: #000000;
+  border-bottom: 1px solid #ee3643;
+  transition: .1s ease;
+}
+
+#filter-price:active ~ label[for="filter-price"],
+#filter-type:active ~ label[for="filter-type"],
+#filter-function:active ~ label[for="filter-function"] {
+  color: #ee3643;
+  border-bottom: none;
+  transition: .1s ease;
 }
 
 .sort-from-to {
@@ -1362,6 +1382,21 @@ ul .delivery-item-2 {
 #filter-from-ch:checked ~ label[for="filter-from-ch"] path,
 #filter-from-ex:checked ~ label[for="filter-from-ex"] path {
   fill: #ee3643;
+  transition: .1s ease;
+}
+
+#filter-from-ch:hover ~ label[for="filter-from-ch"] path,
+#filter-from-ex:hover ~ label[for="filter-from-ex"] path,
+#filter-from-ch:focus ~ label[for="filter-from-ch"] path,
+#filter-from-ex:focus ~ label[for="filter-from-ex"] path {
+  fill: #000000;
+  transition: .1s ease;
+}
+
+#filter-from-ch:active ~ label[for="filter-from-ch"] path,
+#filter-from-ex:active ~ label[for="filter-from-ex"] path {
+  fill: #ee3643;
+  transition: .1s ease;
 }
 
 .price {
