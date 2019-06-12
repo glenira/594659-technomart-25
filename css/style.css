@@ -761,14 +761,14 @@ input[type=search]::-ms-clear {
   background: #3bbce3;
   position: relative;
   background-image: url(../img/icon-2.svg);
-  background-position: 213px 30px;
+  background-position: 200px 35px;
   background-repeat: no-repeat;
 }
 
 .main-feature-list li:nth-child(3) {
   background: #dc91d8;
   background-image: url(../img/icon-3.svg);
-  background-position: 213px 30px;
+  background-position: 190px 30px;
   background-repeat: no-repeat;
 }
 
@@ -844,14 +844,14 @@ input[type=search]::-ms-clear {
 .sideitem div:nth-child(1) {
   background-color: #8ed78f;
   background-image: url(../img/icon-4.svg);
-  background-position: 213px 30px;
+  background-position: 195px 30px;
   background-repeat: no-repeat;
 }
 
 .sideitem div:nth-child(2) {
   background-color: #ffc047;
   background-image: url(../img/icon-5.svg);
-  background-position: 213px 30px;
+  background-position: 190px 35px;
   background-repeat: no-repeat;
 }
 
