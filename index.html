@@ -328,7 +328,9 @@
 					<h2>Контакты</h2>
 					<p>Вы можете забрать товар сами,<br>заехав в наш офис:</p>
 					<div class="contacts-map">
-						<img src="img/map.png" width="300" height="158" alt="Карта проезда">
+						<a class="contacts-button-map" href="map.html">
+							<img src="img/map.png" width="300" height="158" alt="Карта проезда">
+						</a>
 	        		</div>
 	        		<a href="#" class="btn company-contacts-button" tabindex="1">Заблудились? Напишите нам!</a>
 				</div>
@@ -342,7 +344,7 @@
 						<div class="modal-wrapper">
 							<p class="communication-item">
 								<label for="communication-name">Ваше имя</label>
-								<input class="communication-name" id="communication-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+								<input class="communication-name" id="communication-name" type="text" name="givenname" value="" placeholder="Имя Фамилия">
 							</p>
 							<p class="communication-item">
 								<label for="communication-mail">Ваш e-mail</label>
@@ -362,6 +364,7 @@
 			<section class="modal modal-map">
 				<h2 class="visually-hidden">Карта большего размера</h2>
 				<button type="button" name="close-button" class="modal-close">Закрыть карту</button>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037999040354!2d30.322010416394033!3d59.938716271971415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya+Konyushennaya+ul.%2C+19%2C+Sankt-Peterburg%2C+Russia%2C+191186!5e0!3m2!1sen!2s!4v1441888483426" width="940" height="446" allowfullscreen></iframe>
 				<p>
 					<img src="img/map-big.jpg" width="940" height="446" alt="Офис компании Техномарт по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
 				</p>
@@ -432,5 +435,90 @@
 				</div>
 				</div>	
 		</footer>
+		<script>
+ 			var link = document.querySelector(".company-contacts-button");
+			var popup = document.querySelector(".modal-communication");
+			var close = popup.querySelector(".modal-close");
+
+			var form = popup.querySelector("form"); 
+			var givenname = popup.querySelector("[name=givenname]");
+			var email = popup.querySelector("[name=e-mail]");
+			var text = popup.querySelector("[name=text]");
+
+			var isStorageSupport = true;
+			var storage = "";
+			  
+			try {
+			storage = localStorage.getItem("givenname");
+			} catch (err) {
+			isStorageSupport = false;
+			}
+
+  			link.addEventListener("click", function (evt) {
+    		evt.preventDefault();
+    		popup.classList.add("modal-show");
+    		givenname.focus();
+
+    		if (storage) {
+		      givenname.value = storage;
+		      email.focus();
+		    } else {
+		      givenname.focus();
+		    }
+  			});
+
+  			close.addEventListener("click", function (evt) {
+    		evt.preventDefault();
+    		popup.classList.remove("modal-show");
+    		popup.classList.add("modal-error");
+  			});
+
+  			form.addEventListener("submit", function (evt) {
+    		if (!givenname.value || !email.value || !text.value) {
+      		evt.preventDefault();
+      		popup.classList.remove("modal-error");
+      		popup.offsetWidth = popup.offsetWidth;
+      		popup.classList.add("modal-error");
+    		} else {
+  			if (isStorageSupport) {
+        	localStorage.setItem("login", givenname.value);
+      			}
+			}
+  			});
+
+  			window.addEventListener("keydown", function (evt) {
+			    if (evt.keyCode === 27) {
+			      evt.preventDefault();
+			      if (popup.classList.contains("modal-show")) {
+			        popup.classList.remove("modal-show");
+			        popup.classList.add("modal-error");
+			      }
+			    }
+			  });
+  			
+  			var mapLink = document.querySelector(".contacts-button-map");
+
+			var mapPopup = document.querySelector(".modal-map");
+			var mapClose = mapPopup.querySelector(".modal-close");
+
+			mapLink.addEventListener("click", function (evt) {
+			    evt.preventDefault();
+			    mapPopup.classList.add("modal-show");
+			  });
+
+			  mapClose.addEventListener("click", function (evt) {
+			    evt.preventDefault();
+			    mapPopup.classList.remove("modal-show");
+			  });
+
+			  // window.addEventListener("keydown", function (evt) {
+			  //   evt.preventDefault();
+			  //   if (evt.keyCode === 27) {
+			  //     if (mapPopup.classList.contains("modal-show")) {
+			  //       mapPopup.classList.remove("modal-show");
+			  //     }
+			  //   }
+			  // });
+		</script>
  	</body>
 </html>
