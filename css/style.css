@@ -963,7 +963,7 @@ input[type=search]::-ms-clear {
 
 /*Стилизация боковой панели*/
 
-.main-feature h2 {
+.main-feature h3 {
   font-family: 'Cuprum';
   font-size: 24px;
   font-weight: bold;
