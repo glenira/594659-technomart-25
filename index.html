@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>HTML Academy: Техномарт</title>
-		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&display=swap&subset=cyrillic" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&display=swap&subset=cyrillic" rel="stylesheet">
 		<link href="css/normalize.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
@@ -148,7 +148,7 @@
 									<img src="img/item-image.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 9000">
 								</p>
 								<h3 class="catalog-title">
-									Перфоратор BOSH BFG 9000
+									Перфоратор BOSCH BFG 9000
 								</h3>
 							</a>							
 							<p class="catalog-item-price-old">
@@ -165,10 +165,10 @@
 							</div>
 							<a href="#" tabindex="1">
 								<p class="catalog-item-image">
-									<img src="img/item-bfg-3000.jpg" width="218" height="170" alt="Перфоратор BOSH BFG 3000">
+									<img src="img/item-bfg-3000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
 								</p>
 								<h3 class="catalog-title">
-									Перфоратор BOSH BFG 3000
+									Перфоратор BOSCH BFG 3000
 								</h3>
 							</a>
 							<p class="catalog-item-price-old">
@@ -185,7 +185,7 @@
 							</div>
 							<a href="#" tabindex="1">								
 								<p class="catalog-item-image">
-									<img src="img/item-bfg-6000.jpg" width="218" height="170" alt="Перфоратор BOSH BFG 6000">
+									<img src="img/item-bfg-6000.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
 								</p>
 								<h3 class="catalog-title">
 									Перфоратор BOSCH BFG 6000
@@ -206,7 +206,7 @@
 							</div>
 							<a href="#" tabindex="1">								
 								<p class="catalog-item-image">
-									<img src="img/item-image-2.jpg" width="218" height="170" alt="Перфоратор BOSH BFG 2000">
+									<img src="img/item-image-2.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 2000">
 								</p>
 								<h3 class="catalog-title">
 									Перфоратор BOSCH BFG 2000
@@ -435,90 +435,6 @@
 				</div>
 				</div>	
 		</footer>
-		<script>
- 			var link = document.querySelector(".company-contacts-button");
-			var popup = document.querySelector(".modal-communication");
-			var close = popup.querySelector(".modal-close");
-
-			var form = popup.querySelector("form"); 
-			var givenname = popup.querySelector("[name=givenname]");
-			var email = popup.querySelector("[name=e-mail]");
-			var text = popup.querySelector("[name=text]");
-
-			var isStorageSupport = true;
-			var storage = "";
-			  
-			try {
-			storage = localStorage.getItem("givenname");
-			} catch (err) {
-			isStorageSupport = false;
-			}
-
-  			link.addEventListener("click", function (evt) {
-    		evt.preventDefault();
-    		popup.classList.add("modal-show");
-    		givenname.focus();
-
-    		if (storage) {
-		      givenname.value = storage;
-		      email.focus();
-		    } else {
-		      givenname.focus();
-		    }
-  			});
-
-  			close.addEventListener("click", function (evt) {
-    		evt.preventDefault();
-    		popup.classList.remove("modal-show");
-    		popup.classList.add("modal-error");
-  			});
-
-  			form.addEventListener("submit", function (evt) {
-    		if (!givenname.value || !email.value || !text.value) {
-      		evt.preventDefault();
-      		popup.classList.remove("modal-error");
-      		popup.offsetWidth = popup.offsetWidth;
-      		popup.classList.add("modal-error");
-    		} else {
-  			if (isStorageSupport) {
-        	localStorage.setItem("login", givenname.value);
-      			}
-			}
-  			});
-
-  			window.addEventListener("keydown", function (evt) {
-			    if (evt.keyCode === 27) {
-			      evt.preventDefault();
-			      if (popup.classList.contains("modal-show")) {
-			        popup.classList.remove("modal-show");
-			        popup.classList.add("modal-error");
-			      }
-			    }
-			  });
-
-  			var mapLink = document.querySelector(".contacts-button-map");
-
-			var mapPopup = document.querySelector(".modal-map");
-			var mapClose = mapPopup.querySelector(".modal-close");
-
-			mapLink.addEventListener("click", function (evt) {
-			    evt.preventDefault();
-			    mapPopup.classList.add("modal-show");
-			  });
-
-			  mapClose.addEventListener("click", function (evt) {
-			    evt.preventDefault();
-			    mapPopup.classList.remove("modal-show");
-			  });
-
-			  // window.addEventListener("keydown", function (evt) {
-			  //   evt.preventDefault();
-			  //   if (evt.keyCode === 27) {
-			  //     if (mapPopup.classList.contains("modal-show")) {
-			  //       mapPopup.classList.remove("modal-show");
-			  //     }
-			  //   }
-			  // });
-		</script>
+		<script src="js/index.js"></script>
  	</body>
 </html>
