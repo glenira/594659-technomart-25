@@ -1103,17 +1103,6 @@ input[type=search]::-ms-clear {
   padding-right: 31px;
 }
 
-/*.btn-center {
-  position: absolute;
-
-  top: 50%;
-  left: 50%;
-
-  margin-right: -50%;
-
-  transform: translate(-50%, -50%)
-}*/
-
 .open-feature:hover,
 .open-feature:focus {
   background-color: rgba(0, 0, 0, 0.2);
@@ -1824,48 +1813,6 @@ input[type='range'] {
   color: #000000;
 }
 
-/*input[type='range'],
-input[type='range']::-webkit-slider-runnable-track,
-input[type='range']::-webkit-slider-thumb {
-  -webkit-appearance: none;
-    background: none;
-}
-input[type='range']::-webkit-slider-runnable-track {
-  width: 200px;
-  height: 1px;
-  background: #d7dcde;
-}
-
-input[type='range']:nth-child(2)::-webkit-slider-runnable-track{
-  background: none;
-}
-
-input[type='range']::-webkit-slider-thumb {
-  position: relative;
-
-  height: 15px;
-  width: 15px;
-
-  margin-top: -7px;
-
-  background: #fff;
-  border: 1px solid #d7dcde;
-  border-radius: 25px;
-
-  z-index: 1;
-
-  width: 22px;
-  height: 22px;
-
-  background-image: url("../img/filter-button.svg");
-  background-repeat: no-repeat;
-}
-
-
-input[type='range']:nth-child(1)::-webkit-slider-thumb{
-  z-index: 2;
-}*/
-
 /*Стилизация не анимированного ползунка*/
 
 .wrapper-range {
@@ -1914,7 +1861,7 @@ input[type='range']:nth-child(1)::-webkit-slider-thumb{
   height: 1px;
 
   box-sizing: border-box;
-/*    margin-left: 20px;*/
+
   margin-right: 20px;
 }
 
