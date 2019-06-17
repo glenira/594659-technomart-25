@@ -11,7 +11,7 @@ storage = localStorage.getItem("givenname");
 isStorageSupport = false;
 }
 
-	links.forEach(link => link.addEventListener("click", function (evt) {
+links.forEach(link => link.addEventListener("click", function (evt) {
 evt.preventDefault();
 popup.classList.add("modal-show");
 givenname.focus();
