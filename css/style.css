@@ -90,7 +90,6 @@ a {
 
 .main-header-logo img {
   position: absolute;
-  display: inline-block;
 
   left: 50%;
   top: 53%;
@@ -744,8 +743,6 @@ input[type=search]::-ms-clear {
 
 .l-btn-1,
 .l-btn-2 {
-  display: inline-block;
-
   margin: 0 3px;
 
   width: 22px;
@@ -784,8 +781,6 @@ input[type=search]::-ms-clear {
 
 .radio-1,
 .radio-2 {
-  display: inline-block;
-
   margin: 0 3px;
 
   width: 12px;
@@ -1090,7 +1085,7 @@ input[type=search]::-ms-clear {
 /*Стилизация Сервисы*/
 .service-back {
   background-color: #f4f7f9;
-  margin-bottom: 56px;
+  margin-bottom: 54px;
 }
 
 .wrapper-service-back {
@@ -1320,7 +1315,7 @@ input[type=search]::-ms-clear {
   line-height: 24px;
 
   margin: 0 auto;
-  margin-bottom: 86px;
+  margin-bottom: 84px;
 
   width: 940px;
 }
@@ -1371,6 +1366,7 @@ input[type=search]::-ms-clear {
 
 .delivery-list li:before {
   display: inline-block;
+  vertical-align: middle;
   
   content: "";
 
@@ -1865,7 +1861,7 @@ input[type='range'] {
 }
 
 .right {
-  left: 70%;
+  left: 78%;
 }
 
 .slide {
