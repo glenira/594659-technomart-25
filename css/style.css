@@ -318,7 +318,8 @@ a {
 }
 
 .about {
-  font-family: 'Cuprum-Italic';
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-style: italic;
 
   margin: 0;
   margin-left: 53px;
@@ -822,7 +823,7 @@ input[type=search]::-ms-clear {
   padding-top: 24px;
   color: #ffffff;
 
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 36px;
   font-weight: bold;
   font-style: normal;
@@ -834,7 +835,7 @@ input[type=search]::-ms-clear {
 
 .slider-descript {
 
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;;
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
@@ -888,7 +889,7 @@ input[type=search]::-ms-clear {
   padding: 0;
   margin: 0 auto;
 
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 24px;
   font-weight: bold;
   font-style: normal;  
@@ -959,7 +960,7 @@ input[type=search]::-ms-clear {
 /*Стилизация боковой панели*/
 
 .main-feature h3 {
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 24px;
   font-weight: bold;
   line-height: 30px;
@@ -1047,7 +1048,7 @@ input[type=search]::-ms-clear {
   position: relative;
   display: block;
  
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
@@ -1097,7 +1098,7 @@ input[type=search]::-ms-clear {
 }
 
 .wrapper-service-back > h2 {
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 30px;
   font-weight: normal;
   font-style: normal;
@@ -1112,7 +1113,7 @@ input[type=search]::-ms-clear {
 }
 
 .wrapper-service-back > p {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   font-style: normal;
@@ -1163,7 +1164,7 @@ input[type=search]::-ms-clear {
   margin: 0;
   padding: 0;
 
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 21px;
   font-weight: bold;
   font-style: normal;
@@ -1243,7 +1244,7 @@ input[type=search]::-ms-clear {
   padding: 0;
   margin-bottom: 25px;
 
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 36px;
   font-weight: normal;
   font-style: normal;
@@ -1259,7 +1260,7 @@ input[type=search]::-ms-clear {
   padding: 0;
   margin: 0;
 
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   font-style: normal;
@@ -1339,7 +1340,7 @@ input[type=search]::-ms-clear {
 
 .company-information h2 {
   color: #000000;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 30px;
   font-weight: normal;
   line-height: 30px;
@@ -1348,7 +1349,7 @@ input[type=search]::-ms-clear {
 
 .delivery-list {
   color: #000000;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 18px;
   font-weight: bold;
   line-height: 20px;
@@ -1387,7 +1388,7 @@ input[type=search]::-ms-clear {
   border-radius: 2px;
 
   color: #ffffff;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
@@ -1479,7 +1480,7 @@ input[type=search]::-ms-clear {
   background-color: #f2f6f8;
 
   color: #32425c;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 30px;
   font-weight: normal;
   line-height: 30px;
@@ -1512,7 +1513,7 @@ input[type=search]::-ms-clear {
 
   background-color: #f7f3ec;
 
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 18px;
@@ -1528,7 +1529,7 @@ input[type=search]::-ms-clear {
 
   background-color: #f7f3ec;
 
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 18px;
@@ -1583,7 +1584,7 @@ input[type=search]::-ms-clear {
 }
 
 .filter-option-by label {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   font-style: normal;
@@ -1772,7 +1773,7 @@ input[type='range'] {
   background-color: #f7f3ec;
 
   text-align: center;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
   text-align: center;
@@ -1865,8 +1866,8 @@ input[type='range'] {
 }
 
 .slide {
-    left: 28%;
-    width: 37%;
+  left: 28%;
+  width: 37%;
 }
 
 .ranger input{
@@ -2058,7 +2059,7 @@ input[type='range'] {
 
 .buy-button {
   color: #ffffff;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -2086,7 +2087,7 @@ input[type='range'] {
   padding: 7px 0;
 
   color: #32425c;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
 
@@ -2212,7 +2213,7 @@ input[type='range'] {
   display: block;
 
   color: white;
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
@@ -2291,7 +2292,7 @@ input[type='range'] {
 }
 
 .headline h2 {
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 30px;
   font-weight: normal;
   font-style: normal;
@@ -2486,7 +2487,7 @@ input[type='range'] {
   color: #000000;
 
   background-color: #ffffff;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   text-align: center;
   line-height: 18px;
@@ -2541,7 +2542,7 @@ input[type='range'] {
   padding: 0;
   margin-bottom: 26px;
 
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
@@ -2552,7 +2553,7 @@ input[type='range'] {
   margin: 0;
   padding: 0;
 
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: #000000;
@@ -2576,7 +2577,7 @@ input[type='range'] {
 
 .main-footer {
   background-color: #32425c;
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
 }
 
 .main-footer p {
@@ -3065,7 +3066,7 @@ input[type='range'] {
 .item-added-top h2 {
   position: relative;
 
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 30px;
   font-stretch: normal;
   font-style: normal;
@@ -3121,7 +3122,7 @@ input[type='range'] {
   border-radius: 2px;
 
   color: #000000;  
-  font-family: 'Cuprum';
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 14px;
   line-height: 14px;
 
